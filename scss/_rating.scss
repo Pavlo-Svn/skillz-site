@@ -1,0 +1,43 @@
+.page__rating {
+    background: #57D9A6;
+}
+
+.rating {}
+
+.rating__container {
+    padding: 80px 0;
+}
+
+.rating__star {
+    text-align: center;
+}
+
+.rating__text {
+    text-align: center;
+    padding: 43px 0 37px 0;
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #1C1C33;
+
+}
+
+.rating__author {
+    text-align: center;
+    padding-bottom: 39px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4E4E65;
+
+}
+
+.rating__dots {
+    text-align: center;
+}
+
+.rating__dots-active{
+    opacity: 0.3;
+}

@@ -1,0 +1,124 @@
+.page__workshops {}
+
+.workshops {}
+
+.workshops__container {
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+
+.workshops__title-content {
+    text-align: center;
+}
+
+.workshops__title-content h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    color: #1C1C33;
+    text-align: center;
+    color: #1C1C33;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+        content: '';
+        bottom: -10px;
+        left: calc(50% - 150px/2);
+        height: 2px;
+        width: 150px;
+        position: absolute;
+        background: #57D9A6;
+    }
+}
+
+.workshops__subtitle {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #4E4E65;
+    max-width: 644px;
+    padding: 69px 0 69px 0;
+    margin: 0 auto;
+}
+
+.workshops__btn {
+    text-align: center;
+}
+
+.button {}
+
+.workshops__items {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.workshops__item {
+    min-height: 270px;
+    max-width: 340px;
+    padding: 22px 30px;
+    background-color: white;
+}
+
+
+@media (max-width:1306px) {
+    .workshops__item {
+        min-height: 270px;
+        max-width: 250px;
+        padding: 22px 30px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .workshops__item {
+        max-height: 200px;
+        max-width: 150px;
+    }
+}
+
+
+@media (max-width:990px) {
+    .workshops__items {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .workshops__item {
+        min-height: 0px;
+        max-width: 250px;
+        padding: 22px 30px;
+        overflow: hidden;
+        max-height: none;
+    }
+}
+
+.workshops__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C1C33;
+}
+
+.workshops__item-subtitle {
+    padding: 28px 0 15px 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4E4E65;
+
+}
+
+.workshops__item-btn {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #57D9A6;
+    cursor: pointer;
+    &:hover{
+        color: blue;
+    }
+}
